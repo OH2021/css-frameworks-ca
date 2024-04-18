@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(218, 217, 230);
+}
+
+.form-container {
+  max-width: 420px;
+  padding: 1rem;
+}
+
+.col-md-6 {
+  margin: 0 auto;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+}
+
+form button {
+  margin-top: 2px;
+}
+
+/*# sourceMappingURL=index.css.map */

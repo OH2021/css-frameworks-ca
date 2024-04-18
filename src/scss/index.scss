@@ -1,1 +1,25 @@
+$background-color: rgb(218, 217, 230);
+$margin: 0 auto;
+$button-margin-top: 2px;
 
+body {
+    background-color: $background-color;
+}
+
+.form-container {
+    max-width: 420px;
+    padding: 1rem;
+}
+
+.col-md-6 {
+    margin: $margin;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+}
+
+form button {
+    margin-top: $button-margin-top;
+}
