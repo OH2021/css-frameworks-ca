@@ -1,10 +1,12 @@
 # css-frameworks-ca
 Course Assignment
+
 Goal
 Brief
 Process
 Delivery
 Resources
+
 Goal
 To apply knowledge of Bootstrap and SASS to build a responsive front end for a social media application.
 
