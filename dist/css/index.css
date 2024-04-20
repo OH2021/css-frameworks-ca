@@ -1,70 +1,4 @@
 @charset "UTF-8";
-.button {
-  background-color: rgb(74, 74, 189);
-}
-.button:hover {
-  background-color: #39399b;
-}
-
-.error-message {
-  color: red;
-}
-.error-message .button {
-  background-color: rgb(74, 74, 189);
-}
-
-.theme .button {
-  background-color: rgb(74, 74, 189);
-}
-
-body {
-  background-color: rgb(218, 217, 230);
-}
-
-input[type=email],
-input[type=password] {
-  background-color: white;
-}
-
-body {
-  background-color: rgb(218, 217, 230);
-}
-
-.form-control {
-  background-color: white;
-}
-
-.custom-container {
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #f5f5f5;
-  text-align: center;
-  padding: 20px 0;
-}
-
-input[type=text],
-select[class=form-control],
-input[type=new-post-form],
-textarea[class=form-control] {
-  background-color: white;
-}
-
-.navbar-nav {
-  display: flex !important;
-  flex-direction: column;
-  align-items: center;
-}
-
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10784,6 +10718,83 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.card {
+  margin-top: 20px;
+}
+
+.post-thumbnails {
+  margin-bottom: 120px;
+}
+
+input[type=text],
+select[class=form-control],
+input[type=new-post-form],
+textarea[class=form-control] {
+  background-color: white;
+}
+
+.new-post-form {
+  margin-top: 20px;
+}
+
+.theme .button {
+  background-color: rgb(74, 74, 189);
+}
+
+.button {
+  background-color: rgb(74, 74, 189);
+}
+.button:hover {
+  background-color: #39399b;
+}
+
+.col-md-6 {
+  margin-top: 80px;
+}
+
+.custom-container {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+}
+.error-message .button {
+  background-color: rgb(74, 74, 189);
+}
+
+input[type=email],
+input[type=password] {
+  background-color: white;
+}
+
+.form-control {
+  background-color: white;
+}
+
+.custom-container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.navbar-nav {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=index.css.map */
